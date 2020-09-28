@@ -29,7 +29,7 @@
     
     <!--未ログインユーザーには非表示 -->
     @auth 
-    <a class="navbar-brand mt-2" href="Top"><i class="fas fa-desktop mr-2 mt-1"></i>Topページ</a>
+    <a class="navbar-brand mt-2" href="/Top"><i class="fas fa-desktop mr-2 mt-1"></i>Topページ</a>
     <li class="nav-item mt-2">
       <a class="nav-link" href="{{ route('articles.create') }}"><i class="fas fa-pen mr-1"></i>投稿する</a>
     </li>
