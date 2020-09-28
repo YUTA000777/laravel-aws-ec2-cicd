@@ -11,5 +11,6 @@ permissions:
 
 hooks:
   AfterInstall:
-    - timeout: 60
+    - location: ./scripts/after_install.sh
+      timeout: 60
       runas: app
