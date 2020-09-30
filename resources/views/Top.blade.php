@@ -54,7 +54,7 @@
             <div class="container">
 
                 <a class="navbar-brand" href="Top">
-                    Mindfulness
+                    MINDFULNESS
                 </a>
 
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
