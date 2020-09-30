@@ -3,7 +3,7 @@
 Auth::routes();
 
 //Topページ
-Route::get('Top', 'HomeController@index');
+Route::get('/Top', 'HomeController@index')->name('Top');
 
 //一覧画面のURLを'/'で統一させる
 //新規登録後ログイン後はこちらのルートを使用
