@@ -3,7 +3,7 @@
   <a class="navbar-brand" href="/"></i>Mindfulness掲示板</a>
 
   <ul class="navbar-nav ml-auto">
-
+    <a class="navbar-brand mt-2" href="{{ route('Top') }}"><i class="fas fa-desktop mr-2 mt-1"></i>Topページ</a>
     @guest 
     <li class="nav-item pt-2">
       <a class="nav-link" href="{{ route('register') }}">ユーザー登録</a> 
@@ -29,7 +29,6 @@
     
     <!--未ログインユーザーには非表示 -->
     @auth 
-    <a class="navbar-brand mt-2" href="Top"><i class="fas fa-desktop mr-2 mt-1"></i>Topページ</a>
     <li class="nav-item mt-2">
       <a class="nav-link" href="{{ route('articles.create') }}"><i class="fas fa-pen mr-1"></i>投稿する</a>
     </li>
