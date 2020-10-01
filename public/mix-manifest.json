@@ -1,4 +1,25 @@
 {
-    "/js/app.js": "/js/app.js?id=abff2200936e2ab178d9",
-    "/css/app.css": "/css/app.css?id=28f876cc470f77abd667"
+    "/js/TweenMax.min.js": "/js/TweenMax.min.js?id=ec97d0e3864f52d36d5e",
+    "/js/aos.js": "/js/aos.js?id=6f8ceb8241897b245333",
+    "/css/app.css": "/css/app.css?id=28f876cc470f77abd667",
+    "/css/_variables.css": "/css/_variables.css?id=d41d8cd98f00b204e980",
+    "/js/app.js": "/js/app.js?id=f8430da906b0b547d3c5",
+    "/js/bootstrap.min.js": "/js/bootstrap.min.js?id=24a075d153a76d8bae8b",
+    "/js/contact.js": "/js/contact.js?id=2f662d27b8de4dc4be19",
+    "/js/custom.js": "/js/custom.js?id=21bdfc59f4f73591fbb0",
+    "/js/isotope.js": "/js/isotope.js?id=b00163d1fdb44e0aa76c",
+    "/js/jquery.backstretch.min.js": "/js/jquery.backstretch.min.js?id=92a5415a85fd429851a8",
+    "/js/jquery.easing.min.js": "/js/jquery.easing.min.js?id=b7b42076b290aadd13cc",
+    "/js/jquery.mb.YTPlayer.js": "/js/jquery.mb.YTPlayer.js?id=73976b001eeed0e084f2",
+    "/js/jquery.min.js": "/js/jquery.min.js?id=a6e6203d722308cd6123",
+    "/js/jquery.simple-text-rotator.js": "/js/jquery.simple-text-rotator.js?id=da75174d79e5d1691f45",
+    "/js/jquery.wavify.js": "/js/jquery.wavify.js?id=f94d25342410bb1d86eb",
+    "/js/owl.carousel.min.js": "/js/owl.carousel.min.js?id=1c90261a9af144c81906",
+    "/js/parallax.js": "/js/parallax.js?id=3bad88cd8193b95dbcdc",
+    "/js/particles.js": "/js/particles.js?id=7d834cd3282ecb59cec9",
+    "/js/particles.app.js": "/js/particles.app.js?id=90793ce6b928ee5a209d",
+    "/js/popper.min.js": "/js/popper.min.js?id=2460bcb9323c4a7170b9",
+    "/js/scrollspy.min.js": "/js/scrollspy.min.js?id=6c82c5b85ae9774e5000",
+    "/js/typed.js": "/js/typed.js?id=6bbf3c28778a60dfc5ad",
+    "/js/wavify.js": "/js/wavify.js?id=246a5f39ca8e531cd419"
 }

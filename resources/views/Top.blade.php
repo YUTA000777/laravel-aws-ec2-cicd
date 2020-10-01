@@ -11,43 +11,37 @@
         <link rel="shortcut icon" href="images/favicon.ico">
          
         <!--追加  -->
-        <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+        <link href="{{ secure_asset('css/app.css') }}" rel="stylesheet">
 
         <!--Bootstrap Css-->
-        <link rel="stylesheet" type="text/css" href="{{ asset('css/bootstrap.min.css')}}" />
+        <link rel="stylesheet" type="text/css" href="{{ secure_asset('css/bootstrap.min.css')}}" />
 
         <!-- Materialdesign icons Css -->
-        <link href="{{ asset('css/materialdesignicons.min.css')}}" rel="stylesheet">
+        <link href="{{ secure_asset('css/materialdesignicons.min.css')}}" rel="stylesheet">
 
         <!-- Mobirise icons Css -->
-        <link href="{{ asset('css/mobiriseicons.css')}}" rel="stylesheet"> 
+        <link href="{{ secure_asset('css/mobiriseicons.css')}}" rel="stylesheet"> 
 
         <!-- Magnific-popup -->
-        <link rel="stylesheet" href="{{ asset('css/magnific-popup.css')}}">
+        <link rel="stylesheet" href="{{ secure_asset('css/magnific-popup.css')}}">
 
         <!-- Animate Css -->
-        <link rel="stylesheet" href="{{ asset('css/animate.min.css') }}">
+        <link rel="stylesheet" href="{{ secure_asset('css/animate.min.css') }}">
 
         <!-- OWL SLIDER -->
-        <link rel="stylesheet" href="{{ asset('css/owl.carousel.css') }}" />
-        <link rel="stylesheet" href="{{ asset('css/owl.theme.css') }}" />
-        <link rel="stylesheet" href="{{ asset('css/owl.transitions.css') }}" />
+        <link rel="stylesheet" href="{{ secure_asset('css/owl.carousel.css') }}" />
+        <link rel="stylesheet" href="{{ secure_asset('css/owl.theme.css') }}" />
+        <link rel="stylesheet" href="{{ secure_asset('css/owl.transitions.css') }}" />
 
         <!-- Custom style Css -->
-        <link href="{{ asset('css/style.css')}}" rel="stylesheet">
-        <link href="{{ asset('css/color/default.css')}}" rel="stylesheet" id="option-color">
+        <link href="{{ secure_asset('css/style.css')}}" rel="stylesheet"/>
+        <link href="{{ secure_asset('css/color/default.css')}}" rel="stylesheet" id="option-color"/>
     </head>
 
     </head>
 
     <body>
 
-        <!-- Loader -->
-        <div id="preloader">
-            <div id="status">
-                <div class="spinner">Loading...</div>
-            </div>
-        </div>
 
         <!-- Start Navbar -->
     	<nav class="navbar navbar-expand-lg fixed-top custom-nav sticky">
@@ -85,15 +79,15 @@
                             <div class="col-lg-12">
                                 <div class="text-center header-content mx-auto">
                                     <h4 class="text-white first-title mb-4">Welcome</h4>
-                                    <h1 class="header-name text-white text-capitalize mb-0"> <span class="simple-text-rotate font-weight-bold">今をとらえて未来を生きる,マインドフルネス瞑想,</span></h1>
+                                    <h1 class="header-name text-white text-capitalize "> <span class="simple-text-rotate font-weight-bold mb-2">今をとらえて未来を生きる<br>マインドフルネス瞑想</span></h1>
                                       <div class="mt-4 pt-3">
                                          <div class="row justify-content-center">
-                                            <div class="col-6">
-                                             <h5 class="text-white m-4">ポートフォリオ１</h5>
+                                            <div class="col-6 mt-4">
+                                             <h5 class="text-white p-4">ポートフォリオ１</h5>
                                               <a href="/" class="btn btn-outline-custom btn-round w-100 p-4">メンバー限定 掲示板</a>
                                             </div>
-                                            <div class="col-6">
-                                             <h5 class="text-white m-4">ポートフォリオ2</h5>
+                                            <div class="col-6 mt-4">
+                                             <h5 class="text-white p-4">ポートフォリオ2</h5>
                                               <a href="http://yuyu070300.sakura.ne.jp/mindfulness/web/login.php" class="btn btn-outline-custom btn-round w-100 p-4">瞑想を習慣化する</a>
                                            </div>
                                       </div>       
@@ -182,23 +176,18 @@
         <a href="#" class="back_top"> <i class="mdi mdi-chevron-up"> </i> </a>
       
          <!-- JAVASCRIPTS -->
-         <script src="{{ asset('js/jquery.min.js')}}"></script>
-        <script src="{{ asset('js/popper.min.js')}}"></script>
-        <script src="{{ asset('js/bootstrap.min.js')}}"></script>
+         <script src="{{ secure_asset('js/jquery.min.js')}}"></script>
+        <script src="{{ secure_asset('js/popper.min.js')}}"></script>
+        <script src="{{ secure_asset('js/bootstrap.min.js')}}"></script>
         
         <!-- Magnific Popup Js -->
-        <script src="{{ asset('js/jquery.magnific-popup.min.js')}}"></script>
+        <script src="{{ secure_asset('js/jquery.magnific-popup.min.js')}}"></script>
         <!--TEXT ROTETE-->
-        <script src="{{ asset('js/jquery.simple-text-rotator.js')}}"></script>
+        <script src="{{ secure_asset('js/jquery.simple-text-rotator.js')}}"></script>
         <!-- OWL CAROUSEL -->
-        <script src="{{ asset('js/owl.carousel.min.js')}}"></script>
+        <script src="{{ secure_asset('js/owl.carousel.min.js')}}"></script>
         <!--CUSTOM JS-->
-        <script src="{{ asset('js/custom.js')}}"></script>
-        <script>
-            $(".simple-text-rotate").textrotator({
-                animation: "fade",
-                speed: 3500
-            });
-        </script>
+        <script src="{{ secure_asset('js/custom.js')}}"></script>
+ 
     </body>
 </html>
