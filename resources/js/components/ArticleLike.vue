@@ -1,6 +1,6 @@
 <template>
   <div>
-    <strong>いいね！！！</strong>
+    <strong>いいね！</strong>
     <button
       type="button"
       class="btn m-0 p-1 shadow-none"
