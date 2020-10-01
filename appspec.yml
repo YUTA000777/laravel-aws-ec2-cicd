@@ -2,15 +2,15 @@ version: 0.0
 os: linux
 files:
   - source: /
-    destination: /home/app/laravel-aws-ec2-cicd
+    destination: /home/webapp/laravel-aws-ec2-cicd
 
 permissions:
-  - object: /home/app/laravel-aws-ec2-cicd
-    owner: app
-    group: app
+  - object: /home/webapp/laravel-aws-ec2-cicd
+    owner: webapp
+    group: webapp
 
 hooks:
   AfterInstall:
     - location: ./scripts/after_install.sh
       timeout: 60
-      runas: app
+      runas: webapp
