@@ -34,5 +34,4 @@ mix.js('resources/js/assets/aos.js', 'public/js')
    .js('resources/js/assets/wavify.js', 'public/js')
     
     .sass('resources/sass/assets/app.scss', 'public/css')
-    .sass('resources/sass/assets/_variables.scss', 'public/css')
     .version();
