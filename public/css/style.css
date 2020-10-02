@@ -1,0 +1,431 @@
+imag/*-----------------------------------------------------------
+* Template Name    : Kerri | Responsive Bootstrap 4 Personal Template
+* Author           : SRBThemes
+* Version          : 1.0.0
+* Created          : March 2018
+* File Description : Main css file of the template
+*------------------------------------------------------------
+*/
+
+
+/***********************
+    1.BASIC
+    2.HELPER
+    3.NAVBAR
+    4.HOME
+    5.ABOUT 
+    6.SERVICES
+    7.CLIENT
+    8.WORK
+    9.CONTACT
+    10.FOOTER
+    11.RESPONSIVE
+************************/
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600|Nunito:400,600,700');
+
+/*======================
+        1.BASIC
+========================*/
+
+body {
+    font-family: 'Nunito', sans-serif;
+    overflow-x: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+a,
+a:hover,
+a:focus,
+button,
+button:focus {
+    text-decoration: none !important;
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+
+#status {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin: -20px 0 0 -20px;
+}
+
+
+
+.back_top {
+    text-align: center;
+    position: fixed;
+    bottom: 15px;
+    height: 35px;
+    width: 35px;
+    display: none;
+    z-index: 10000;
+    border-radius: 3px;
+    right: 20px;
+    transition: all 0.5s;
+}
+
+.back_top i {
+    color: #fff;
+    line-height: 35px;
+    font-size: 32px;
+    display: block;
+}
+
+
+/*==========================
+        2.HELPER
+============================*/
+
+.section {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    position: relative;
+    background-color: #fff;
+}
+
+.h-100vh {
+    height: 100vh;
+}
+
+.z-index {
+    z-index: 2;
+}
+
+.clippath_none {
+    clip-path: none !important;
+}
+
+.section-subtitle {
+    max-width: 500px;
+}
+
+.btn {
+    padding: 15px 32px;
+    font-size: 14px;
+    font-weight: 700;
+    transition: all 0.5s;
+    letter-spacing: 0.6px;
+    color: #fff;
+    box-shadow: none !important;
+    text-transform: uppercase;
+    outline: none !important;
+}
+
+.btn-round {
+    border-radius: 30px;
+}
+
+.btn-custom{
+    border:1px solid;
+}
+
+.btn-custom:hover,
+.btn-custom:focus,
+.btn-custom:active,
+.btn-custom.active,
+.btn-custom.focus,
+.btn-custom:active,
+.btn-custom:focus,
+.btn-custom:hover,
+.open > .dropdown-toggle.btn-custom {
+    color: #f3f3f3;
+}
+
+.btn-outline-custom {
+    border: 2px solid #f5f5f5;
+}
+
+.btn-outline-custom:hover,
+.btn-outline-custom:focus,
+.btn-outline-custom:active,
+.btn-outline-custom.active,
+.btn-outline-custom.focus,
+.btn-outline-custom:active,
+.btn-outline-custom:focus,
+.btn-outline-custom:hover,
+.open > .dropdown-toggle.btn-outline-custom {
+    color: #000;
+    background-color: #fff;
+    border-color: #fff;
+}
+
+.bg-overlay {
+    background-color: rgba(0, 0, 0, 0.69);
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+/*==========================
+        3.NAVBAR CUSTOM
+============================*/
+
+.custom-nav {
+    background-color: transparent;
+    padding: 20px 0px;
+    width: 100%;
+    border-radius: 0px;
+    z-index: 999;
+    margin-bottom: 0px;
+    transition: all 0.5s ease-in-out;
+}
+
+.custom-nav .navbar-nav li a {
+    color: #fff !important;
+    font-size: 15px;
+    background-color: transparent !important;
+    margin: 0 7px;
+    letter-spacing: 0.05em;
+    line-height: 24px;
+    transition: all 0.5s;
+    font-weight: 500;
+}
+
+.custom-nav .navbar-brand .logo-light,
+.custom-nav .navbar-brand .logo-dark {
+    height: 27px;
+}
+
+.logo .logo-light {
+    display: inline-block;
+}
+
+.stickyadd .logo .logo-dark {
+    display: inline-block;
+}
+
+.stickyadd .logo .logo-light {
+    display: none;
+}
+
+.logo .logo-dark {
+    display: none;
+}
+
+.custom-nav .navbar-brand {
+    color: #fff !important;
+    text-transform: uppercase;
+}
+
+.custom-nav .navbar-toggler {
+    color: #fff;
+    font-size: 35px;
+    padding: 0px;
+}
+
+.custom-nav.stickyadd {
+    background-color: #fff !important;
+    box-shadow: 0 1px 8px 3px rgba(0, 0, 0, 0.050980392156862744);
+    padding: 15px 0px;
+}
+
+.custom-nav.stickyadd .navbar-nav li a {
+    color: #000 !important;
+}
+
+
+/*===========================
+        4.HOME
+=============================*/
+
+.header-bg-img {
+    background-image: url(../images/背景画像.jpg);
+    position: relative;
+    background-size: cover;
+    background-position: center center;
+}
+
+.header-content {
+    max-width: 800px;
+}
+
+.header-table-center {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.header-table {
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+
+.header-name {
+    font-size: 54px;
+}
+
+.header-desc {
+    max-width: 500px;
+    line-height: 1.8;
+    color: rgba(255, 255, 255, 0.75) !important;
+}
+
+.scroll_down {
+    position: absolute;
+    bottom: 5vh;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    font-size: 13px;
+    z-index: 8;
+}
+
+.scroll_down i {
+    position: relative;
+    -webkit-animation: bounce 2s infinite; 
+    animation: bounce 2s infinite; 
+    height: 44px;
+    width: 28px;
+    line-height: 54px;
+    border-radius: 30px;
+    border: 2px solid #ffffff;
+    display: inline-block;
+    color: #fff;
+    font-size: 10px;
+}
+
+.scroll_down i:after {
+    content: "";
+    position: absolute;
+    top: 22px;
+    left: 11px;
+    border-radius: 2px;
+    z-index: -1;
+    bottom: 0px;
+    transition: all .2s;
+    height: 10px;
+    width: 3px;
+    background: #fff;
+}
+
+/*HOME 4*/
+
+.curv-img {
+    position: absolute;
+    width: 100%;
+    bottom: 0px;
+    z-index: 1;
+}
+
+.curv-img svg {
+    display: block;
+}
+
+/*HOME 7*/
+
+.clip-home {
+    clip-path: polygon(0 0, 100% 0, 100% 83%, 50% 100%, 0 83%);
+    position: relative;
+}
+
+/*DEMO 16*/
+
+.wave_sec {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.wave_sec svg {
+  height: 180px;
+}
+
+
+
+/*======================
+        10.FOOTER
+========================*/
+
+.footer {
+    padding: 70px 0px;
+    background-color: #242424 !important;
+}
+
+.footer .footer-alt p {
+    font-size: 16px;
+}
+
+.footer .footer-alt ul li a {
+    border-radius: 50%;
+    transition: all 0.5s;
+    background-color: rgba(241, 241, 241, 0.08);
+    width: 42px;
+    height: 42px;
+    display: block;
+    font-size: 18px;
+    line-height: 42px;
+    text-align: center;
+}
+
+
+/*===========================
+        11.RESPONSIVE
+=============================*/
+
+@media (min-width: 200px) and (max-width: 768px) {
+    .custom-nav {
+        background-color: #fff !important;
+        padding: 10px 0px !important;
+    }
+    .custom-nav .container {
+        width: 85%;
+    }
+    .custom-nav .navbar-toggler {
+        color: #000;
+        font-size: 32px;
+        border: none;
+    }
+    .custom-nav .logo .logo-dark {
+        display: inline-block;
+    }
+    .custom-nav .navbar-nav li a {
+        color: rgba(0, 0, 0, 0.6) !important;
+    }
+    .custom-nav .logo .logo-light {
+        display: none;
+    }
+    .h-100vh {
+        height: auto;
+        padding: 120px 0 140px;
+    }
+    .header-bg-img {
+        clip-path: none;
+        padding: 120px 0 140px;
+    }
+    .wave-home.h-100vh{
+        height: auto;
+        padding: 120px 0 190px;
+    }
+    .custom-nav .navbar-nav li a {
+        margin: 0 0px;
+        line-height: 15px;
+    }
+    .header-name {
+        font-size: 38px;
+    }
+    .clip-home{
+        clip-path: none;
+    }
+}
+
+@media (max-width: 2560px) {
+    .home-bg .curv-img {
+        bottom: -5px;
+    }
+}
