@@ -78,7 +78,7 @@
 <br>
 
 ## 【インフラ構成図】
-![インフラ構成図](images/infra.png "Cloud")
+![インフラ構成図](public/images/infra.png "Cloud")
 <br>
 
 ## 【アプリケーションブラウザテスト（Chrome/Firefox/safari/Edge/IE 11,10,9,8）】
