@@ -2,7 +2,7 @@
 # MINDFULNESS
 ### 瞑想を習慣化するための仕組みと環境を提供するアプリを「２つ」用意しています。
 <br><br>
-<img src="public/images/portforio2.gif" width="500">
+<img src="public/images/portforio2.gif" width="400" height="500">
 ここにTOPの画像を載せる
 
 ## 【使用技術】
@@ -80,12 +80,7 @@
 <br>
 
 ## 【インフラ構成図】
-<<<<<<< HEAD
 ![インフラ構成図](public/images/infra.png "Cloud")
-=======
-
-![インフラ構成図](images/infra.png "Cloud")
->>>>>>> 36940e1afce387e962a665b1223af70f38ecd1f9
 <br><br>
 
 
