@@ -7,6 +7,7 @@
   <title>
     @yield('title')
   </title>
+  <link rel="shortcut icon" href="images/favicon.ico">
   <!-- Font Awesome -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
   <!-- Bootstrap core CSS -->
