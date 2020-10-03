@@ -80,8 +80,14 @@
 <br>
 
 ## 【インフラ構成図】
+<<<<<<< HEAD
 ![インフラ構成図](public/images/infra.png "Cloud")
+=======
+
+![インフラ構成図](images/infra.png "Cloud")
+>>>>>>> 36940e1afce387e962a665b1223af70f38ecd1f9
 <br><br>
+
 
 ## 【アプリケーションブラウザテスト（Chrome/Firefox/safari/Edge/IE 11,10,9,8）】
 [スプレッドシート](https://docs.google.com/spreadsheets/d/1VHTu-UZnbfKLE30rUPOp0xKJSU-AV2oquUGVsC01C44/edit#gid=352893331)
