@@ -58,10 +58,10 @@
                 <div class="collapse navbar-collapse" id="navbarCollapse">
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item active">
-                            <a class="nav-link" href="/">ポートフォリオ1</a>
+                            <a class="nav-link" href="/">ポートフォリオNo.1</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="http://yuyu070300.sakura.ne.jp/mindfulness/web/login.php">ポートフォリオ2</a>
+                            <a class="nav-link" href="http://yuyu070300.sakura.ne.jp/mindfulness/web/login.php">ポートフォリオNo.2</a>
                         </li>
                     </ul>
                 </div>
@@ -83,11 +83,11 @@
                                       <div class="mt-4 pt-3">
                                          <div class="row justify-content-center">
                                             <div class="col-6 mt-4">
-                                             <h5 class="text-white p-4">ポートフォリオ１</h5>
+                                             <h5 class="text-white p-4">ポートフォリオNo.1</h5>
                                               <a href="/" class="btn btn-outline-custom btn-round w-100 p-4">メンバー限定 掲示板</a>
                                             </div>
                                             <div class="col-6 mt-4">
-                                             <h5 class="text-white p-4">ポートフォリオ2</h5>
+                                             <h5 class="text-white p-4">ポートフォリオNo.2</h5>
                                               <a href="http://yuyu070300.sakura.ne.jp/mindfulness/web/login.php" class="btn btn-outline-custom btn-round w-100 p-4">瞑想を習慣化する</a>
                                            </div>
                                       </div>       
@@ -115,7 +115,7 @@
                         <div class="rounded blog_color p-2">
                             <div class="content_blog pt-3 pb-3">
                                 <div class="mt-3">
-                                    <h3 class="text-muted text-center date_blog mb-0"><a class="text-custom font-weight-bold">ポートフォリオ1概要
+                                    <h3 class="text-muted text-center date_blog mb-0"><a class="text-custom font-weight-bold">ポートフォリオNo.1概要
                                     </a></h3>
                                     <div class="panel panel-info">
                                         <div class="panel-heading mb-4 mt-4">
@@ -134,7 +134,7 @@
                         <div class="rounded blog_color p-2">
                             <div class="content_blog pt-3 pb-3">
                                 <div class="mt-3">
-                                    <h3 class="text-muted date_blog mb-0 text-center"><a  class="text-custom font-weight-bold">ポートフォリオ2概要
+                                    <h3 class="text-muted date_blog mb-0 text-center"><a  class="text-custom font-weight-bold">ポートフォリオNo.2概要
                                     </a></h3>
                                     <div class="panel panel-info">
                                         <div class="panel-heading mb-4 mt-4">
