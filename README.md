@@ -2,6 +2,7 @@
 # MINDFULNESS
 ### 瞑想を習慣化するための仕組みと環境を提供するアプリを「２つ」用意しています。
 <br><br>
+<img src="images/portforio2.gif" width="500">
 ここにTOPの画像を載せる
 
 ## 【使用技術】
@@ -10,8 +11,8 @@
 - Larval 6.18.40 
 - Javascript
 - Vue.js
-- ajax
-- AWS( EC2 / RDS(postgres) / S3 / VPC / CodeDeploy / CloudFortation / AWS-CLI )
+- ajax(非同期処理)
+- AWS( EC2 / RDS(postgres) / S3 / VPC / CodeDeploy / CloudFortation / Route53 / AWS-CLI )
 - CircleCI(自動テスト、自動ビルド)
 - CodeDeploy(自動デプロイ)
 - CI/CD( CircleCI/ CodeDeploy )
@@ -26,6 +27,7 @@
 - Javascript
 - CSS
 - Bootstrap
+- Eclipse(IDE)
 - Mysql
 - Apach
 - さくらインターネット（メール通知機能、デプロイ）
@@ -33,10 +35,10 @@
 
 ## 【機能一覧】
 ### ポートフォリオ1つ目
-- 自作新規会員登録機能　
+- 自作新規会員登録機能
 - 自作ログイン機能
 - いいね機能（非同期通信 Vue.js+axios）
-- コメント投稿機能 コメント編集機能　コメント削除機能
+- コメント投稿機能 コメント編集機能 コメント削除機能
 - ページネーション機能
 - 画像投稿機能（Cloudinary 外部API）
 - 投稿詳細画面
@@ -78,8 +80,10 @@
 <br>
 
 ## 【インフラ構成図】
-![インフラ構成図](public/images/infra.png "Cloud")
-<br>
+
+![インフラ構成図](images/infra.png "Cloud")
+<br><br>
+
 
 ## 【アプリケーションブラウザテスト（Chrome/Firefox/safari/Edge/IE 11,10,9,8）】
 [スプレッドシート](https://docs.google.com/spreadsheets/d/1VHTu-UZnbfKLE30rUPOp0xKJSU-AV2oquUGVsC01C44/edit#gid=352893331)
